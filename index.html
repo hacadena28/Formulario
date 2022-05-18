@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+    <title>Formulario HTML5</title>
+<form action="#">
+
+
+    <label for="tipoDeDocumento">Tipo de documento: </label>
+    <select name="tipoDeDocumento" id="tipoDeDocumento">
+        <option value="tarjetaDeIdentidad">Tajeta de identidad</option>
+        <option value="cedulaDeCiudadania">Cedula de ciudadania</option>
+        <option value="cedulaExtranjera">Cedula extranjera</option>
+    </select>
+    <br>  
+    <label for="cedula">Cedula: </label>
+    <input type="text" id="cedula" name="cedula" placeholder="Cedula">
+    <br>
+    <label for="primerNombre">Primer Nombre: </label>
+    <input type="text" id="primerNombre" name="primerNombre" placeholder="Primer Nombre"/ >
+    <br>
+    <label for="segundoNombre">Segundo Nombre: </label>
+    <input type="text" id="segundoNombre" name="segundoNombre" placeholder="Segundo Nombre"/ >
+    <br>
+    <label for="primerApellido">Primer Apellido: </label>
+    <input type="text" id="primerApellido" name="primerApellido" placeholder="Primer Apellido"/ >
+    <br>
+    <label for="segundoApellido">Segundo Apellido: </label>
+    <input type="text" id="segundoApellido" name="segundoApellido" placeholder="Segundo Apellido"/ >
+    <br>
+    <label for="correo">Correo: </label>
+    <input type="email" id="correo" name="correo" placeholder="Correo" required/>
+    <br>
+    <label for="URL">URL: </label>
+    <input type="url" id="url" name="url" placeholder="URL"/>
+    <br>
+    <label for="fecha">Fecha: </label>
+    <input type="Date" id="fecha" name="fecha" placeholder="Fecha">
+    <br>
+    <label for="hora">Hora: </label>
+    <input type="time" id="hora" name="hora" placeholder="Hora">
+    <br>
+    <label for="genero">Genero: </label>
+    <input type="radio" id="genero" name="genero">
+    <span>Masculino</span>
+    <input type="radio" id="genero" name="genero">
+    <span>Femenino</span>
+    <input type="radio" id="genero" name="genero">
+    <span>Otros</span>
+    <br>
+    <label for="archivo">Archivo: </label>
+    <input type="file" id="archivo" name="archivo">
+    <br>
+
+    <p>Elije tus colores favoritos.</p>
+    <p>
+        Azul: <input type="checkbox" name="colorAzul" value="Azul" />
+        <br />
+        Amarillo: <input type="checkbox" name="colorAmarillo" value="Amarillo" />
+        <br />
+        Rojo: <input type="checkbox" name="colorRojo" value="Rojo" />
+        <br />
+        Verde: <input type="checkbox" name="colorVerde" value="Verde " />
+        <br />
+
+    </p>
+    <button type="post">Tipo sumit</button>
+    
+
+</form>
+
+</head>
+<body>
+    
+</body>
+</html>
