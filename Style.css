@@ -1,0 +1,40 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.top{
+    color: #ffffff;
+    background-color: rgb(58, 163, 58);
+    border-radius: 10px;
+    width: auto;
+    
+}
+body {
+    background-color: #ffffff;
+}
+div{
+    
+    
+}
+label{
+    
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 163, 58);
+    width: 150px;
+    height: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+.container {
+    border-radius: 10px;
+    color: black;
+   
+}
+h3{
+    color: #ffffff;
+    background-color: rgb(62, 124, 218);
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
