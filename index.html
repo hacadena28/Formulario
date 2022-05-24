@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>  
-
-
     <title>Formulario HTML5</title>
     <link rel="stylesheet" type="text/css" href="Style.css">
-
 </head>
-
 <body>
     <div class="top">
         <h1>Formulario HTML5</h1>
     </div>
-   
-
     <div class="container">
-        
-        <div class="containerDatos">
-            
+        <div class="containerDatos">  
             <form action="#">
                 <div class="personal">
                     <h3>Informacion Personal</h3>
@@ -60,7 +51,6 @@
                     <br>
                     <label for="edad">Edad</label>
                     <input type="number" id="edad" name="edad">
-                   
                 </div>
                 <div class="contacto">
                     <h3>Informacion de contacto</h3>
@@ -73,49 +63,36 @@
                     <label for="fecha">Fecha De nacimiento: </label>
                     <input type="Date" id="fecha" name="fecha" placeholder="Fecha">
                 </div>
-               
                 <div class="adicional">
                     <h3>Informacion Adicional</h3>
-                <label for="hora">Hora Actual: </label>
-                <input type="time" id="hora" name="hora" placeholder="Hora">
-                <br>
-                <label for="archivo">Archivo: </label>
-                <input type="file" id="archivo" name="archivo">
-                <br>
-                <label for="placa">Placa</label>
-                <input type="text" pattern="[A-Za-z]{3}[-][0-9]{3}" name="placa" id="placa" placeholder="ABC-123" />
-                <br>
-                <label for="price">Conocimineto de HTML </label>
-                <input type="range" name="price" id="price" min="0" max="100" step="1" value="50">
-                <output class="price-output" for="price"></output>
-                <br>
-                
-                <legend class="deporte">Elije los deportes que practica</legend>
-                
+                    <label for="hora">Hora Actual: </label>
+                    <input type="time" id="hora" name="hora" placeholder="Hora">
+                    <br>
+                    <label for="archivo">Archivo: </label>
+                    <input type="file" id="archivo" name="archivo">
+                    <br>
+                    <label for="placa">Placa</label>
+                    <input type="text" pattern="[A-Za-z]{3}[-][0-9]{3}" name="placa" id="placa" placeholder="ABC-123" />
+                    <br>
+                    <label for="price">Conocimineto de HTML </label>
+                    <input type="range" name="price" id="price" min="0" max="100" step="1" value="50">
+                    <output class="price-output" for="price"></output>
+                    <br>
+                </div>
+
+                <div class="elegirDeporte">
+                    <h3>Elije los deportes que practica</h3>
                     <legend>Futbol<input type="checkbox" name="deportes" value="futbool" /></legend>     
                     <legend>Basquetbol: <input type="checkbox" name="deportes" value="basquetbol" /></legend>  
                     <legend>Ciclismo: <input type="checkbox" name="deportes" value="Rojo" /></legend>    
-                    <legend>Atletismo: <input type="checkbox" name="deportes" value="Verde " /></legend>
+                    <legend>Atletismo: <input type="checkbox" name="deportes" value="Verde " /></legend>                
                 </div>
-                
                 <hr>
-                <button class="enviar" type="post">Tipo sumit</button>
-                <button class="reiniciar" type="reset">Tipo reset</button>
-
-            </form>
-
-           
-            
+                <button class="boton" type="post">Tipo sumit</button>
+                <button class="boton" type="reset">Tipo reset</button>
+            </form>      
         </div>
-
-    </div>
-
-   
-
-
-    
-   
-    
+    </div>   
 </body>
     <script type="text/javascript" src="java.js"></script>
 </html>

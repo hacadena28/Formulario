@@ -3,15 +3,19 @@
     margin: 3px;
     
     
+    
+    
 }
 .top{
     color: #ffffff;
     background-color: rgb(58, 163, 58);
-    border-radius: 10px;
+    border-radius: 15px;
+    border-color: rgb(235, 0, 0);
     width: auto;
     padding: 20px;
-    
+    text-align: center;
 }
+
 body {
     background-color: #ffffff;
 }
@@ -28,25 +32,19 @@ label{
     text-align: center;
     margin: 3px;
 }
-.deporte{
-    color: rgb(255, 255, 255);
-    
-    background-color: rgb(62, 124, 218);
-    border-radius: 5px;
-    width: 300px;
-    height: 20px;
-    text-align: center;
-}
+
 legend{
-    display: inline-block;
+   
     color: rgb(255, 255, 255);
     background-color: rgb(58, 163, 58);
-    width: 200px;
-    height: 20px;
-    font-weight: bold;
     border-radius: 5px;
-    text-align: center;
     margin: 3px;
+    width: 250px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+    
 }
 .container {
     border-radius: 10px;
@@ -59,30 +57,26 @@ h3{
     color: #ffffff;
     background-color: rgb(62, 124, 218);
     border-radius: 10px;
-    width: 300px;
     text-align: center;
 }
 select{
     width: 200px;
     height: 20px;
 } 
-.enviar{
+.boton{
     padding: 20px;
     border-color:green;
     border-radius: 15px;
-    position: absolute
-    
+    background-color: aqua;
 }
-.reiniciar{
-    padding: 20px;
-    border-color:green;
-    border-radius: 15px;
-}
+
 .personal{
     text-align: center;
     border: 2px solid black;
     border-radius:  10px;
     margin-bottom: 20px;
+    
+    
 }
 .contacto{
     text-align: center;
@@ -96,4 +90,16 @@ select{
     border-radius:  10px;
     margin-bottom: 20px;
 
+}
+.elegirDeporte{
+    text-align: center;
+    border: 2px solid black;
+    border-radius:  10px;
+    margin-bottom: 20px;
+    
+}
+div{
+    margin-left:auto;
+    margin-right:auto;
+    width: 600px;
 }
